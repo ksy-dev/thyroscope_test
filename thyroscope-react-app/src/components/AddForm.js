@@ -1,5 +1,5 @@
 import React from 'react';
-import { Formik, Field, Form } from 'formik';
+import { Formik, Form } from 'formik';
 import { Button, Col, Container, Row } from 'reactstrap';
 import * as Yup from 'yup';
 import CustomInput from './CustomInput';
@@ -77,7 +77,6 @@ const AddForm = ({ onSubmit, onChangeValue, data }) => (
                                 />
                             </Col>
                             <Col xs="auto">
-                                {/* <label>gender</label> */}
                                 <Col>
                                     <CustomInput
                                         label='gender'
